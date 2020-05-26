@@ -1,9 +1,8 @@
 (function (window) {
-var names=[{name:"John"},{ name:"nav"}, {name:"Joe"}];
-var speakWord = "Hello";
-names.sayhello=function () {
-  console.log(speakWord + names.name);
+hellospeaker.speak=function (name) {
+console.log(speakword+" "+name);
 }
-window.names=names;
+
+window.hellospeaker=hellospeaker;
 })(window);
 
